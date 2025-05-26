@@ -1,8 +1,9 @@
 function firstWord(s) {
   // your code here
 	if(typeof s!=='string'||s.length===0){
-		return " ";
+		return "";
 	}
+	s=s.trim();
 	const firstSpace=s.indexOf(' ');
 	if(firstSpace===-1){
 		return s;
