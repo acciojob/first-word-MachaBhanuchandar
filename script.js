@@ -3,7 +3,7 @@ function firstWord(s) {
 	if(typeof s!=='string'||s.length===0){
 		return "";
 	}
-	const firstSpace=s.indexOf('');
+	const firstSpace=s.indexOf(' ');
 	if(firstSpace===-1){
 		return s;
 	}
